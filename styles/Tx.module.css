@@ -1,0 +1,36 @@
+.txItem {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.txLink {
+  color: #fff !important;
+  text-decoration: none !important;
+}
+
+.txLink:visited,
+.txLink:hover,
+.txLink:active {
+  color: #fff !important;
+  text-decoration: none !important;
+}
+
+.txLink:hover .txIcon {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 4px;
+}
+
+.txIcon {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.txIcon > img {
+  max-width: 18px;
+  max-height: 18px;
+  object-fit: contain;
+}

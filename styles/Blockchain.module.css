@@ -1,0 +1,26 @@
+.blockchainContainer {
+  width: 100vw;
+  overflow-x: hidden; /* hide horizontal overflow */
+  overflow-y: visible;
+  white-space: nowrap;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.blockchainInner {
+  display: flex;
+  align-items: center;
+  /* transition: transform 2s ease; */
+  padding-right: 20px;
+}
+
+.noTransition {
+  transition: none;
+}
+
+@media (max-width: 768px) {
+  .blockchainInner {
+    padding-right: 10px;
+  }
+}

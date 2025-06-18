@@ -1,0 +1,17 @@
+/* Reset margins, paddings, and set a consistent box model */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global styling for html and body */
+html,
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: Montserrat, Verdana, sans-serif;
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+}

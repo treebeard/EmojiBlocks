@@ -1,0 +1,12 @@
+.tooltip {
+  pointer-events: none;
+  background-color: rgba(0, 0, 0, 0.75);
+  color: #fff;
+  text-align: center;
+  border-radius: 4px;
+  padding: 5px 10px;
+  white-space: nowrap;
+  z-index: 1000;
+  transition: opacity 0.2s;
+  font-family: Verdana, sans-serif;
+}
